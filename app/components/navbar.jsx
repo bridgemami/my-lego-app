@@ -1,14 +1,11 @@
-import Image from "next/image"
-import Link from "next/link"
-import logo from "../../public/logo.png"
+import Link from "next/link";
 
 export default function Navbar() {
   return (
     <nav>
-      <ul className="navbar">
-        <Link href="/purchased"><li>Purchased</li></Link>
-        <Link href="/wishlist"><li>Wishlist</li></Link>
-      </ul>
+      <Link href="/">
+        <h1 className="heading1">My Lego App</h1>
+      </Link>
     </nav>
-  )
+  );
 }

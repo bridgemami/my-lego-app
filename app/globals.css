@@ -10,7 +10,7 @@ body{
     @apply text-4xl font-extrabold text-center py-8;
 }
 
-.navbar {
+.footer {
     @apply p-8 flex justify-center gap-4 flex-row;
 }
 
